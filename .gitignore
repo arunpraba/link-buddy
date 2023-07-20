@@ -1,0 +1,24 @@
+# Django project specific files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Virtual environment
+venv/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.pyc
+
+# Ignore any sensitive configuration files containing secrets and API keys
+config_secret.json
+
+# Ignore the media folder (if used for file uploads)
+media/
+
+# Ignore static files (collected static, if using Django's collectstatic)
+static/
