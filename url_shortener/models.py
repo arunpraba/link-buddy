@@ -1,8 +1,6 @@
 from django.db import models
 
 
-from django.db import models
-
 
 class ShortenedURL(models.Model):
     """Model definition for ShortenedURL."""
